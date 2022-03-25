@@ -8,10 +8,15 @@ void main()
 	const int n = 5; //количество элементов массива
 	int arr[n] = {3,5,8,13,21};
 	//arr[2] = 123;
-	/*cout << "¬ведите элементы массива (" << n << "шт):";
+	//cout << "¬ведите элементы массива (" << n << "шт):";
+	int minRand;
+	int maxRand;
+	cout << " ¬ведите  минимально возможное случайное число:"; cin >> minRand;
+	cout << " ¬ведите максимально возможное случайное число:"; cin >> maxRand;
 	for (int i = 0; i < n; i++)
 	{
-		cin >> arr[i];
+	//	cin >> arr[i];
+		arr[i] = rand() % (maxRand - minRand) + minRand;
 	}
 	for (int i = 0; i < n; i++)
 	{
@@ -23,7 +28,7 @@ void main()
 		
 		cout << arr[i] << "\t";
 	}
-	cout << endl; */
+	cout << endl; 
 	
 	int sum = 0;
 	{
@@ -39,7 +44,7 @@ void main()
 	} 	cout << endl << "—умма элементов массива = " << sum;
 	cout << "—реднее арифметическое элементов массива:" << (double) sum / n << endl;
 	int min, max;
-	min = max = 0;
+	min = max = arr[0];
 	for (int i = 0; i < n; i++)
 	{
 		if (arr[i] < min)min = arr[i];
