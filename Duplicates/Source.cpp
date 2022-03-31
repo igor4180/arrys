@@ -1,4 +1,4 @@
-//Dublicates
+ï»¿//Dublicates
 #include<iostream>
 using namespace std;
 
@@ -41,8 +41,8 @@ void main()
 			}
 
 		}
-		if (count > 1)printf(" Çíà÷åíèå %d âñòðå÷àåòñÿ %d ðàç\n", arr[i], count);
-		//if (count > 1)cout << arr[i] << " âñòðå÷àåòñÿ " << count << " ðàç" << endl;
+		if (count > 1)printf(" Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ %d Ð²ÑÑ‚Ñ€ÐµÑ‡Ð°ÐµÑ‚ÑÑ %d Ñ€Ð°Ð·\n", arr[i], count);
+		//if (count > 1)cout << arr[i] << " Ð²ÑÑ‚Ñ€ÐµÑ‡Ð°ÐµÑ‚ÑÑ " << count << " Ñ€Ð°Ð·" << endl;
 
 #ifdef DEBUG
 		if (!already_there)
@@ -56,7 +56,7 @@ void main()
 				}
 
 			}
-			if (count > 0)cout << arr[i] << " âñòðå÷àåòñÿ " << count << " ðàç" << endl;
+			if (count > 0)cout << arr[i] << " Ð²ÑÑ‚Ñ€ÐµÑ‡Ð°ÐµÑ‚ÑÑ " << count << " Ñ€Ð°Ð·" << endl;
 		}
 
 
